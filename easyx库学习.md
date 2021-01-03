@@ -621,7 +621,7 @@ warning C4551: 缺少参数列表的函数调用
 
 ## 参考资料
 
-[封装]([https://baike.baidu.com/item/%E5%B0%81%E8%A3%85/2796965?fr=aladdin](https://baike.baidu.com/item/封装/2796965?fr=aladdin))
+[封装](https://baike.baidu.com/item/%E5%B0%81%E8%A3%85/2796965?fr=aladdin)
 
 [宿主程序](https://baike.baidu.com/item/宿主程序)
 
