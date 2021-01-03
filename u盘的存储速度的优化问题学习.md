@@ -49,7 +49,7 @@ U盘默认存储的速度通常比较慢，但是如果我启用了windows中的
 
 [一文读懂热插拔](https://www.ithome.com/0/467/290.htm)
 
-[热插拔]([https://baike.baidu.com/item/%E7%83%AD%E6%8F%92%E6%8B%94/203637?fr=aladdin](https://baike.baidu.com/item/热插拔/203637?fr=aladdin))
+[热插拔](https://baike.baidu.com/item/%E7%83%AD%E6%8F%92%E6%8B%94/203637?fr=aladdin)
 
 [写入缓存到底是个什么东西，是好东西还是坏东西，能起到什么作用呢。](https://zhidao.baidu.com/question/128820962.html)
 
@@ -69,5 +69,5 @@ U盘默认存储的速度通常比较慢，但是如果我启用了windows中的
 
 [缓存是什么](https://zhidao.baidu.com/question/71383784.html)
 
-[关于“写入缓存策略”设置]([https://answers.microsoft.com/zh-hans/windows/forum/windows_7-performance/%e5%85%b3%e4%ba%8e%e5%86%99%e5%85%a5%e7%bc%93/ed3ce6f3-7df2-488a-9f30-e3cdf01d19f7?messageId=15de67d0-1faa-4342-a706-fccac57a7482](https://answers.microsoft.com/zh-hans/windows/forum/windows_7-performance/关于写入缓/ed3ce6f3-7df2-488a-9f30-e3cdf01d19f7?messageId=15de67d0-1faa-4342-a706-fccac57a7482))
+[关于“写入缓存策略”设置](https://answers.microsoft.com/zh-hans/windows/forum/windows_7-performance/%e5%85%b3%e4%ba%8e%e5%86%99%e5%85%a5%e7%bc%93/ed3ce6f3-7df2-488a-9f30-e3cdf01d19f7?messageId=15de67d0-1faa-4342-a706-fccac57a7482)
 
