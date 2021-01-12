@@ -11,4 +11,5 @@
   - [图床搭建搭建学习](https://github.com/lihj502/Tasks/blob/main/%E5%9B%BE%E5%BA%8A%E6%90%AD%E5%BB%BA%E6%90%AD%E5%BB%BA%E5%AD%A6%E4%B9%A0.md)
   - [easyx库学习](https://github.com/lihj502/Tasks/blob/main/easyx%E5%BA%93%E5%AD%A6%E4%B9%A0.md)  
 7. **1月4日例会后学长在考核群内发出的问题学习** [来自学长的灵魂拷问之c语言题目学习笔记](https://github.com/lihj502/Tasks/blob/main/%E6%9D%A5%E8%87%AA%E5%AD%A6%E9%95%BF%E7%9A%84%E7%81%B5%E9%AD%82%E6%8B%B7%E9%97%AE%E4%B9%8Bc%E8%AF%AD%E8%A8%80%E9%A2%98%E7%9B%AE%E8%AE%B0%E5%BD%95.md)  
+8. **阶段四** [招新网站复现](https://github.com/lihj502/Tasks/tree/main/%E9%98%B6%E6%AE%B5%E5%9B%9B%E4%B9%8B%E6%8B%9B%E6%96%B0%E7%BD%91%E7%AB%99%E5%A4%8D%E7%8E%B0)  
 ps.此后将逐渐添加学习的内容
