@@ -1,0 +1,655 @@
+/*清除初始的内外边距样式*/
+* {
+  margin: 0;
+  padding: 0;
+}
+#uper {
+  position: fixed;
+  background-color: #fff4c3;
+  border-radius: 1212px/46px; 
+  /*css3中的圆角边框，通过使用背景颜色填充模拟椭圆效果 
+  这里使用的是对每个圆角水平直径和垂直直径设定来刻画椭圆*/
+  width: 1212px;
+  height: 46px;
+  margin-left: 30px;
+  margin-top: 3px;
+}
+/*把放着顶部导航栏的那些文字的盒子div转换为行内块元素，这样可以在一行排列*/
+.hangneikuai {
+  display: inline-block;
+  height: 30px;
+  width: 235px;
+  text-align: center;
+}
+.textstyle {
+  font-family: FZYaoti;
+  color: black;
+  display: block;
+  margin-top: 0;
+  font-size: 23.04px;
+  height: 30px;
+  margin-bottom: 25px;
+}
+a {
+  text-decoration: none;
+}
+.textstyle:hover {
+  color: white;
+}
+.about {
+  margin-left: 120px;
+}
+.contact {
+  width: 113px;
+  margin-right: 50px;
+}
+.Q {
+  margin-left: 20px;
+}
+.newthread {
+  margin-left: 55px;
+  font-family: Agency FB;
+  font-size: 33px;
+  color: #5c5c5c;
+  font-weight: 800;
+  transition: all 0.45s;
+}
+.newthread:hover {
+  color: #5c5c5c;
+  font-size: 36px;
+}
+#bk {
+  background-image: url("https://gitee.com/gritandsea/picture/raw/master/img/geek背景图.png");
+  background-position: 10px, center;
+  height: 867px;
+  width: 1920px;
+  background-size: 65% 90%;
+  background-repeat: no-repeat;
+}
+#GKup {
+  display: block;
+  height: 85px;
+}
+
+.GKpicture {
+  margin-left: 375px;
+  margin-top: 10px;
+}
+.animation {
+  cursor: pointer; 
+  /*css2中一个可以改变光标的样式的属性，因为这个是图片不是链接，
+  但是需要模拟出链接的效果，因此需要这个显示出光标到图片上以后出现小手的特效*/
+  transition: all 0.6s; 
+  /*css3中平滑的过渡动画效果，表示所有的属性的变化都在0.6s的时间段内完成*/
+}
+.animation:hover {
+  transform: scale(1.1); 
+  /*css3中的按比例放大或缩小（改变括号里的相对原图片的大小的数值比例）*/
+}
+.GKbottom {
+  width: 380px;
+  height: 97px;
+  margin-left: 500px;
+  font-family: HWHupo;
+  color: #929292;
+  font-weight: 800;
+  font-size: 23.5px;
+  cursor: pointer;
+  transition: all 0.45s;
+}
+.GKbottom:hover {
+  transform: scale(1.05); 
+}
+.bkintroduction {
+  width: 1100px;
+  height: 224px;
+  margin: 0 auto;
+  background-image: url(https://gitee.com/gritandsea/picture/raw/master/img/过渡花纹.png);
+  background-size: 100% 58%;
+  background-repeat: no-repeat;
+}
+.imgintroduction {
+  width: 450px;
+  height: 100px;
+  background-image: url(https://gitee.com/gritandsea/picture/raw/master/img/介绍.png);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-left: 300px;
+  position: relative;
+  top: 100px;
+}
+/*totalstyle样式应用于introduct板块共计四个小块的总框架*/
+.totalstyle {
+  width: 1200px;
+  height: 580px;
+  margin: 0 auto;
+  position: relative;
+}
+.textofprogrammer {
+  width: 500px;
+  height: 576px;
+  display: inline-block;
+  position: absolute;
+  left: 80px;
+}
+.monkey {
+  width: 435.2px;
+  height: 576px;
+  background-image: url(https://gitee.com/gritandsea/picture/raw/master/img/houzi.png);
+  background-size: 100% 100%;
+  display: inline-block;
+  position: absolute;
+  left: 650px;
+}
+.programmer1 {
+  font-family: FZYaoti;
+  font-size: 45px;
+  position: absolute;
+  top: 39px;
+}
+.programmer2 {
+  color: #7bd3ff;
+  font-size: 39px;
+  font-family: FZYaoti;
+  position: absolute;
+  top: 100px;
+}
+.programmer3 {
+  position: relative;
+  font-size: 25px;
+  font-family: FZYaoti;
+  top: 145px;
+}
+.vacancy {
+  height: 100px;
+}
+.imgproduce {
+  position: absolute;
+  left: 60px;
+}
+.textofproduct {
+  width: 560px;
+  height: 576px;
+  display: inline-block;
+  position: absolute;
+  left: 550px;
+}
+.produce1 {
+  font-family: FZYaoti;
+  font-size: 41.5px;
+}
+.produce2 {
+  color: purple;
+  font-family: FZYaoti;
+  font-size: 35px;
+}
+.produce3 {
+  font-size: 25px;
+  font-family: FZYaoti;
+}
+.textofai {
+  width: 500px;
+  height: 576px;
+  display: inline-block;
+  position: relative;
+  left: 80px;
+  padding-top: 50px;
+  padding-left: 35px;
+}
+.ai1 {
+  font-family: FZYaoti;
+  font-size: 38px;
+}
+.ai2 {
+  color: #7bd3ff;
+  font-family: FZYaoti;
+  font-size: 32px;
+}
+.ai3 {
+  font-size: 25px;
+  font-family: FZYaoti;
+}
+.imgai {
+  position: absolute;
+  left: 550px;
+}
+.vacancy1 {
+  height: 80px;
+}
+.vacancy2 {
+  height: 80px;
+}
+.imgsafety {
+  position: absolute;
+  left: 66px;
+}
+.textofsafety {
+  width: 520px;
+  height: 576px;
+  display: inline-block;
+  position: absolute;
+  left: 585px;
+  padding-top: 39px;
+  padding-left: 35px;
+}
+.safety1 {
+  font-family: FZYaoti;
+  font-size: 38px;
+}
+.safety2 {
+  color: #6495ed;
+  font-family: FZYaoti;
+  font-size: 30px;
+}
+.safety3 {
+  font-size: 25px;
+  font-family: FZYaoti;
+}
+.vacancy3 {
+  height: 50px;
+}
+.aboutus1 {
+  width: 1000px;
+  height: 100px;
+  margin: 0 auto;
+  position: relative;
+}
+.imgtopleft {
+  position: absolute;
+  top: 50px;
+}
+.imgaboutus {
+  position: absolute;
+  left: 360px;
+}
+.imgtopright {
+  position: absolute;
+  right: 0;
+  top: 50px;
+}
+.aboutus2 {
+  width: 1100px;
+  height: 450px;
+  margin: 0 auto;
+  position: relative;
+}
+.insect {
+  position: absolute;
+  top: 210px;
+}
+.aboutus3 {
+  width: 190px;
+  height: 350px;
+  display: inline-block;
+  border: 10px solid #8b88b7;
+  border-radius: 50px;
+  font-family: FZYaoti;
+  position: relative;
+}
+.aboutus4 {
+  position: absolute;
+  top: 27px;
+  left: 170px;
+}
+.aboutus5 {
+  position: absolute;
+  top: 27px;
+  left: 437px;
+}
+.aboutus6 {
+  position: absolute;
+  top: 27px;
+  left: 700px;
+}
+.imgdiversity {
+  position: absolute;
+  top: 15px;
+  left: 30px;
+}
+.textofdiversity {
+  width: 150px;
+  font-family: FZYaoti;
+  font-size: 18px;
+  position: absolute;
+  top: 210px;
+  left: 20px;
+  /*将文本内的文字进行居中对齐，否则样式不匹配*/
+  text-align: center;
+}
+.imgspeech {
+  position: absolute;
+  top: 15px;
+  left: 30px;
+}
+.textofspeech {
+  width: 150px;
+  font-family: FZYaoti;
+  font-size: 18px;
+  position: absolute;
+  top: 210px;
+  left: 20px;
+  text-align: center;
+}
+.imgtime {
+  position: absolute;
+  top: 15px;
+  left: 30px;
+}
+.textoftime {
+  width: 150px;
+  font-family: FZYaoti;
+  font-size: 18px;
+  position: absolute;
+  top: 210px;
+  left: 20px;
+  text-align: center;
+}
+.imgbutterfly {
+  position: absolute;
+  bottom: 25px;
+  right: 70px;
+}
+.abottom {
+  width: 1000px;
+  height: 51.5px;
+  margin: 0 auto;
+  position: relative;
+}
+.imgbottomright {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.biggestcontactus {
+  width: 1100px;
+  height: 650px;
+  position: relative;
+  margin: 0 auto;
+}
+.imgcontactus {
+  position: absolute;
+  top: 10px;
+  left: 400px;
+}
+.imgleaf {
+  position: absolute;
+  top: 5px;
+  left: 270px;
+}
+.imglefttree {
+  position: absolute;
+  left: 0;
+  top: 100px;
+}
+.imgrighttree {
+  position: absolute;
+  right: 0;
+  top: 50px;
+}
+.frameofcontactus1 {
+  width: 730px;
+  height: 300px;
+  position: absolute;
+  left: 180px;
+  top: 150px;
+}
+.textofcontactus {
+  font-family: FZYaoti;
+  color: #45645a;
+  font-size: 19.5px;
+  line-height: 39px;
+}
+.frameofcontactus2 {
+  width: 550px;
+  height: 39.5px;
+  position: absolute;
+  top: 420px;
+  left: 200px;
+}
+.buttonofcontactus {
+  width: 128px;
+  height: 39.5px;
+  border-radius: 13.5px;
+  border-color: #45645a;
+  border-width: 10px;
+  background-color: #45645a;
+  display: inline-block;
+  position: relative;
+  transition: all 0.5s;
+}
+.buttonofcontactus:hover {
+  background-color: white;
+  transform: scale(1.1);
+}
+.textofbuttonstyle {
+  font-family: FZYaoti;
+  color: #fff;
+  font-size: 25px;
+  text-decoration: none;
+  transition: all 0.5s;
+}
+.buttonofcontactus:hover .textofbuttonstyle {
+  transform: scale(1.02);
+  color: #45645a;
+}
+.QQ {
+  position: absolute;
+  top: 4.2px;
+  left: 14.3px;
+}
+.positionofEmail {
+  position: absolute;
+  left: 210px;
+}
+.E {
+  position: absolute;
+  top: 3.5px;
+  left: 31px;
+}
+.positionofGithub {
+  position: absolute;
+  right: 0;
+}
+.G {
+  position: absolute;
+  top: 4px;
+  left: 32px;
+}
+.outerofmore {
+  width: 1263.33px;
+  position: relative;
+  height: 65px;
+}
+.imgmore {
+  position: absolute;
+  top: 0;
+  right: 285px;
+}
+.frameofmoreimg {
+  width: 1263.33px;
+  height: 1000px;
+  background-color: #8dc6ff;
+}
+.textofmore {
+  width: 795px;
+  height: 900px;
+  position: absolute;
+  top: 5120px;
+  left: 250px;
+}
+.imgs {
+  position: absolute;
+  top: 5120px;
+  left: -80px;
+}
+.imge {
+  position: absolute;
+  top: 5250px;
+  right: 0;
+}
+.imgempty1 {
+  position: absolute;
+  top: 5350px;
+  left: 80px;
+}
+.imgempty2 {
+  position: absolute;
+  top: 5470px;
+  right: 130px;
+}
+.img1 {
+  position: absolute;
+  top: 5460px;
+  left: -100px;
+}
+.imgg {
+  position: absolute;
+  top: 5520px;
+  right: -25px;
+}
+#textoutermore1 {
+  width: 1263.33px;
+  font-family: FZYaoti;
+  font-size: 23px;
+  line-height: 41.5px;
+}
+#textoutermore2 {
+  width: 1263.33px;
+  font-family: FZYaoti;
+  font-size: 23px;
+  line-height: 41.5px;
+}
+#textoutermore3 {
+  width: 1263.33px;
+  font-family: FZYaoti;
+  font-size: 23px;
+  line-height: 41.5px;
+}
+#textoutermore4 {
+  width: 1263.33px;
+  font-family: FZYaoti;
+  font-size: 23px;
+  line-height: 41.5px;
+}
+#textoutermore5 {
+  width: 1263.33px;
+  font-family: FZYaoti;
+  font-size: 23px;
+  line-height: 41.5px;
+}
+#textoutermore6 {
+  width: 1263.33px;
+  font-family: FZYaoti;
+  font-size: 23px;
+  line-height: 41.5px;
+}
+#textoutermore7 {
+  width: 1263.33px;
+  font-family: FZYaoti;
+  font-size: 23px;
+  line-height: 43px;
+}
+#texttitleofmore {
+  color: white;
+  font-size: 24px;
+  line-height: 65.5px;
+  transition: all 0.8s;
+  width: 768px;
+  height: 64px;
+  cursor: pointer;
+}
+#textinnerofmore {
+ /*隐藏这个类对应的元素*/
+  display: none;
+  position: absolute;
+  left: 1em;
+  width: 760px;
+  line-height: 49px;
+  transition: all 0.8s;
+}
+#textoutermore1:hover {
+  transform: scale(1);
+  height: 146.667px;
+}
+/*如果外部最大的盒子设置了hover，那么就可以利用下面格式相同的语句操纵这个盒子内部的各个样式的改变*/
+#textoutermore1:hover #textinnerofmore {
+ /*显示这个类对应的元素*/
+  display: block;
+}
+#textoutermore1:hover #texttitleofmore {
+  background-color: white;
+  opacity: 0.35;
+  color: blue;
+}
+#textoutermore2:hover {
+  transform: scale(1);
+  height: 248px;
+}
+#textoutermore2:hover #textinnerofmore {
+  display: block;
+}
+#textoutermore2:hover #texttitleofmore {
+  background-color: white;
+  opacity: 0.35;
+  color: blue;
+}
+#textoutermore3:hover {
+  transform: scale(1);
+  height: 400px;
+}
+#textoutermore3:hover #textinnerofmore {
+  display: block;
+}
+#textoutermore3:hover #texttitleofmore {
+  background-color: white;
+  opacity: 0.35;
+  color: blue;
+}
+#textoutermore4:hover {
+  transform: scale(1);
+  height: 298.67px;
+}
+#textoutermore4:hover #textinnerofmore {
+  display: block;
+}
+#textoutermore4:hover #texttitleofmore {
+  background-color: white;
+  opacity: 0.35;
+  color: blue;
+}
+#textoutermore5:hover {
+  transform: scale(1);
+  height: 333.33px;
+}
+#textoutermore5:hover #textinnerofmore {
+  display: block;
+}
+#textoutermore5:hover #texttitleofmore {
+  background-color: white;
+  opacity: 0.35;
+  color: blue;
+}
+#textoutermore6:hover {
+  transform: scale(1);
+  height: 333.33px;
+}
+#textoutermore6:hover #textinnerofmore {
+  display: block;
+}
+#textoutermore6:hover #texttitleofmore {
+  background-color: white;
+  opacity: 0.35;
+  color: blue;
+}
+#textoutermore7:hover {
+  transform: scale(1);
+  height: 346.67px;
+}
+#textoutermore7:hover #textinnerofmore {
+  display: block;
+}
+#textoutermore7:hover #texttitleofmore {
+  background-color: white;
+  opacity: 0.35;
+  color: blue;
+}
