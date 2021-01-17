@@ -1,6 +1,17 @@
 # GitHub和git学习笔记
 
-[toc]
+   * [GitHub和git学习笔记](#github和git学习笔记)
+      * [一、GitHub和git的区别](#一github和git的区别)
+      * [二、GitHub和git的联系](#二github和git的联系)
+      * [三、GitHub学习笔记](#三github学习笔记)
+         * [3.1 GitHub初印象](#31-github初印象)
+         * [3.2 对GitHub熟悉过程的记录](#32-对github熟悉过程的记录)
+         * [3.3 对于本阶段学习GitHub的总结](#33-对于本阶段学习github的总结)
+      * [四、git学习笔记](#四git学习笔记)
+         * [4.1 git初印象](#41-git初印象)
+         * [4.2 学习git的过程以及过程中出现的问题和解决方法](#42-学习git的过程以及过程中出现的问题和解决方法)
+         * [4.3 git使用的小技巧](#43-git使用的小技巧)
+         * [4.4 对本阶段git的心得总结](#44-对本阶段git的心得总结)
 
 ## 一、GitHub和git的区别
 
