@@ -15,5 +15,5 @@
 7. **1月4日例会后学长在考核群内发出的问题学习** [格式及部分内容修改之来自学长的灵魂拷问c语言题目学习笔记](https://github.com/lihj502/Tasks/blob/main/%E6%A0%BC%E5%BC%8F%E5%8F%8A%E9%83%A8%E5%88%86%E5%86%85%E5%AE%B9%E4%BF%AE%E6%94%B9%E4%B9%8B%E6%9D%A5%E8%87%AA%E5%AD%A6%E9%95%BF%E7%9A%84%E7%81%B5%E9%AD%82%E6%8B%B7%E9%97%AE.md)  
 8. **阶段四** [招新网站复现](https://lihj502.github.io)  
 **PS:** 这次是网址链接了，不是那个代码的链接了  
-9. **阶段五** [python学习笔记]（https://github.com/lihj502/Tasks/blob/main/python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md）  
+9. **阶段五** [python学习笔记](https://github.com/lihj502/Tasks/blob/main/python%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0.md)    
 ps.此后将逐渐添加学习的内容
